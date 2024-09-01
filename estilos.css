@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+    margin-top: -150px;
+    background: linear-gradient(to bottom right, #4A90E2, #F0F4F8);
+    background-size: cover; /* Garante que o gradiente cubra toda a tela */
+    background-repeat: no-repeat; /* Evita qualquer repetição */
+    padding-bottom: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    justify-content: center;
+
+}
+
+div > h1{
+    margin-top: -70px;
+    padding-bottom: 5px;
+}
+
+p{
+    padding: 5px;
+}
+
+h3{
+    padding: 5px;
+}
+
+a > img {
+    padding: 4px;
+    width: 50px;  /* Define a largura do ícone */
+    height: 50px; /* Define a altura do ícone */
+}
+
+footer{
+    padding:6px;
+    height: 27vh;
+    
+}
+
+.text-center-margin{
+    margin: 0 auto;
+    width: 990px;
+}
